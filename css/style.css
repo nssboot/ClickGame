@@ -1,0 +1,52 @@
+#game-table img{
+  cursor: pointer;
+}
+
+body{
+      background-color: #d0e4fe;
+  }
+
+.panel-primary {
+    height: calc(100vh - 145px);
+}
+
+.final-results{
+  border: 3px solid #FFA600;
+  padding: 20px 0;
+  font-size: 2em;
+  margin-top: 50px;
+}
+
+.appear{
+  display: inherit;
+}
+
+.poof{
+  display: none;
+}
+
+.start-button{
+  border: 1px solid #111AF7;
+  transition: border 1s, background 1.5s, color 1.2s;
+  margin-bottom: 50px;
+}
+
+.start-button:hover{
+  border: 1px solid #FF0010;
+  background: #FFF000;
+  color: #FF0010;
+}
+
+.panel-default > .panel-heading {
+    cursor: pointer;
+  background-color: green;
+  color:#FFFFFF;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 4px 4px 0px 0px;
+  border-bottom: 1px solid #0074BD;
+}
+
+.panel-heading.collapsed {
+    background-color: #e35600;
+}  
